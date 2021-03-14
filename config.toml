@@ -1,0 +1,12 @@
+baseURL = "https://"
+theme   = "my-theme"
+title   = "Hamster wheel"
+
+enableGitInfo = true
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+languageCode           = "en"
+paginate               = 15
+
+[Params]
+author = "Johan Viklund"
