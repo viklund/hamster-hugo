@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  <div class="table">
+<table>
+  <tr><th>Date<th>Length [km]<th>Laps<th>Time</tr>
+{{ range $day := $.Site.Data.day_stats }}
+{{ range $d, $s := $day }}
+<tr>
+    <td>{{ $d }}
+    <td class="r">{{ $s.km}}
+    <td class="r">{{ $s.laps}}
+    <td>{{ $s.time}}
+</tr>
+{{ end }}
+{{ end }}
+</table>
+  </div>
+{{ end }}
+
