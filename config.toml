@@ -1,6 +1,11 @@
-baseURL = "https://"
+baseURL = ""
 theme   = "my-theme"
 title   = "Hamster wheel"
+
+# Until we get proper taxonomies, these should be disabled
+disableKinds = ['taxonomy', 'term']
+
+staticDir = ["static"]
 
 enableGitInfo = true
 DefaultContentLanguage = "en"
