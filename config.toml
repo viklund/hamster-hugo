@@ -2,7 +2,8 @@ baseURL = ""
 title   = "Hamster wheel"
 
 # Until we get proper taxonomies, these should be disabled
-disableKinds = ['taxonomy', 'term']
+#disableKinds = ['taxonomy', 'term']
+
 
 staticDir = ["static"]
 
@@ -11,6 +12,9 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 languageCode           = "en"
 paginate               = 15
+
+[taxonomies]
+  weeks = "weeks"
 
 [Params]
 author = "Johan Viklund"
